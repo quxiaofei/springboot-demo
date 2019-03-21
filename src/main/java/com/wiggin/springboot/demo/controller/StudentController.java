@@ -24,4 +24,9 @@ public class StudentController {
         System.out.println("修改123");
         return service.queryById(id);
     }
+    @RequestMapping("/")
+    String home() {
+        return "Hello World!dfdsfsd";
+    }
+
 }
